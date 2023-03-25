@@ -29,7 +29,7 @@ export const products: Product[] = [
   },
   {
     id: 4,
-    name: 'sakfnadkl',
+    name: 'Bronze',
     price: 799,
     description:
       "Perfect for those who are just starting their fitness journey and want access to the gym's basic facilities, including cardio machines and strength training equipment. Although it offers fewer perks than other plans, it provides a great way to start working towards your fitness goals without breaking the bank.",
