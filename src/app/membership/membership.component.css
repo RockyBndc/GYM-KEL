@@ -1,8 +1,7 @@
 body {
-  font-family: 'Playfair Display', serif;
   letter-spacing: 1px;
-  color: #121212;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 p {
   font-family: 'Roboto', sans-serif;
@@ -18,12 +17,15 @@ h1 {
   font-weight: 500;
 }
 h2 {
-  font-size: 60px;
+  font-size: 40px;
   line-height: 70px;
-  color: white;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px #555555;
+  font-family: 'Playfair Display', serif;
 }
 h3 {
   font-size: 48px;
+  font-family: 'Playfair Display', serif;
 }
 h5 {
   font-family: 'Roboto', sans-serif;
@@ -40,14 +42,21 @@ h6 {
   font-weight: 100;
   color: white;
 }
+h4 {
+  font-family: 'Playfair Display', serif;
+}
 .sub-title {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   letter-spacing: 0.15px;
 }
 /*----*/
+li {
+  color: rgb(49, 49, 49);
+  font-weight: 500;
+}
 section {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .card {
@@ -81,22 +90,46 @@ section {
 
 .col-3:nth-child(1) .card,
 .col-3-4:nth-child(1) .card .title .fa {
-  background: linear-gradient(-45deg, #f403d1, #64b5f6);
+  background: rgb(88, 104, 128);
+  background: linear-gradient(
+    167deg,
+    rgba(88, 104, 128, 1) 5%,
+    rgba(163, 176, 198, 1) 44%,
+    rgba(41, 48, 58, 1) 100%
+  );
 }
 
 .col-3:nth-child(2) .card,
 .col-3:nth-child(2) .card .title .fa {
-  background: linear-gradient(-45deg, #ffec61, #f321d7);
+  background: rgb(236, 198, 61);
+  background: linear-gradient(
+    167deg,
+    rgba(236, 198, 61, 1) 5%,
+    rgba(250, 228, 116, 1) 44%,
+    rgba(223, 172, 38, 1) 100%
+  );
 }
 
 .col-3:nth-child(3) .card,
 .col-3:nth-child(3) .card .title .fa {
-  background: linear-gradient(-45deg, #24ff72, #9a4eff);
+  background: rgb(157, 155, 155);
+  background: linear-gradient(
+    167deg,
+    rgba(157, 155, 155, 1) 5%,
+    rgba(240, 240, 240, 1) 44%,
+    rgba(112, 108, 108, 1) 100%
+  );
 }
 
 .col-3:nth-child(4) .card,
 .col-3:nth-child(4) .card .title .fa {
-  background: linear-gradient(-45deg, #24ff72, #9a4eff);
+  background: rgb(239, 153, 92);
+  background: linear-gradient(
+    167deg,
+    rgba(239, 153, 92, 1) 5%,
+    rgba(255, 207, 145, 1) 44%,
+    rgba(177, 86, 30, 1) 100%
+  );
 }
 
 .card:before {
@@ -116,7 +149,6 @@ section {
 }
 
 .title .fa {
-  color: #fff;
   font-size: 60px;
   width: 100px;
   height: 100px;
@@ -134,8 +166,6 @@ section {
   position: relative;
   margin: 20px 0 0;
   padding: 0;
-  color: #fff;
-  font-size: 28px;
   z-index: 2;
 }
 
@@ -147,7 +177,6 @@ section {
 .price h4 {
   margin: 0;
   padding: 20px 0;
-  color: #fff;
   font-size: 60px;
 }
 
@@ -165,7 +194,6 @@ section {
   margin: 0 0 10px;
   padding: 0;
   list-style: none;
-  color: #fff;
   font-size: 16px;
 }
 
