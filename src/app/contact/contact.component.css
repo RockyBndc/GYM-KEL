@@ -8,7 +8,7 @@ p {
 h1 {
   font-size: 70px;
   line-height: 72px;
-  color: #edb82a;
+  color: #ce9b61;
   font-weight: 500;
 }
 h2 {
@@ -23,7 +23,7 @@ h5 {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   letter-spacing: 5px;
-  color: #edb82a;
+  color: #ce9b61;
 }
 h6 {
   font-family: 'Roboto', sans-serif;
@@ -45,7 +45,7 @@ h6 {
   margin-top: 80px;
 }
 .bg-footer {
-  background-color: #732316;
+  background-color: #641515;
   padding: 50px 0 0px;
 }
 .footer-heading {
@@ -62,7 +62,7 @@ h6 {
 }
 
 .footer-link a:hover {
-  color: #edb82a;
+  color: #ce9b61;
   text-decoration: none;
 }
 
@@ -84,11 +84,11 @@ h6 {
   left: 0;
   bottom: 0;
   display: block;
-  border-bottom: 2px solid #edb82a;
+  border-bottom: 2px solid #ce9b61;
 }
 .footer-2 {
-  background: #edb82a;
-  color: #732316;
+  background: #ce9b61;
+  color: #641515;
 }
 .footer-alt {
   padding: 10px;

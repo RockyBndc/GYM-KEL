@@ -62,3 +62,13 @@ header .nav-link:active {
   color: #ce9b61;
   font-weight: 300px;
 }
+#register {
+  background-color: #641515;
+  color: wheat;
+  border: none;
+}
+#register:hover {
+  background-color: #ce9b61;
+  color: #641515;
+  border: none;
+}

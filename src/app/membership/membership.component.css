@@ -220,4 +220,6 @@ section {
 
 .card a:hover {
   text-decoration: none;
+  background-color: #641515;
+  color: wheat;
 }
