@@ -1,0 +1,52 @@
+body {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  color: #121212;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  text-align: justify;
+}
+h1 {
+  font-size: 70px;
+  line-height: 72px;
+  color: #ce9b61;
+  font-weight: 500;
+}
+h2 {
+  font-size: 60px;
+  line-height: 70px;
+}
+h3 {
+  font-size: 48px;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  letter-spacing: 5px;
+  color: #ce9b61;
+  font-weight: bold;
+}
+/*-----------------*/
+#regis-form {
+  background: rgb(236, 187, 131);
+  background: linear-gradient(
+    162deg,
+    rgba(236, 187, 131, 1) 9%,
+    rgba(206, 155, 97, 1) 57%,
+    rgba(187, 132, 69, 1) 100%
+  );
+}
+.btn {
+  background-color: #641515;
+  color: wheat;
+  opacity: 70%;
+}
+.btn:hover {
+  background-color: #641515;
+  color: wheat;
+  opacity: 100%;
+}
