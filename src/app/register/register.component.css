@@ -43,10 +43,16 @@ h5 {
 .btn {
   background-color: #641515;
   color: wheat;
-  opacity: 70%;
+  opacity: 90%;
 }
 .btn:hover {
   background-color: #641515;
   color: wheat;
   opacity: 100%;
+}
+#cart{
+  color: #641515;
+}
+.badge{
+  background-color: #641515;
 }
